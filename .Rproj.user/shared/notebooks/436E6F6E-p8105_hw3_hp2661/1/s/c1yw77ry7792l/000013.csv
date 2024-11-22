@@ -1,0 +1,10 @@
+"0","ggplot(merged_nhanes_long_2, aes(x = hour, y = hourly_mims, color = sex)) + 
+  geom_point(alpha = .2) +
+  geom_smooth(se = FALSE) + 
+  facet_grid(. ~ education) + 
+  labs(title = ""Hourly MIMS vs Hours"", 
+       x = ""Hours"",
+       y = ""Hourly MIMS"")
+"
+"1","[38;5;232m`geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = ""cs"")'[39m
+"

@@ -1,0 +1,8 @@
+"0",""
+"0","ggplot(bike_merged, aes(x = weekdays, y = duration)) + "
+"0","  geom_boxplot(aes(color = factor(month))) + "
+"0","  facet_grid(. ~ year) + "
+"0","  labs(title = ""Ride Duration by Membership, Bike Type, and Month in 2024"", "
+"0","       x = ""Membership"","
+"0","       y = ""Ride Duration"") + "
+"0","  theme(legend.position = ""bottom"")"

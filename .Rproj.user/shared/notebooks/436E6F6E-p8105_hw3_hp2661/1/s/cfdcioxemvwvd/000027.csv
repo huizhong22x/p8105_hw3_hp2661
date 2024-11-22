@@ -1,0 +1,11 @@
+"0","ggplot(merged_nhanes, aes(x = age, y = total_mims, color = sex)) + 
+  geom_point(alpha = .5) + 
+  geom_smooth(se = FALSE) + 
+  facet_grid(. ~ education) + 
+  labs(title = ""Total Activities vs Age"", 
+       x = ""Age"",
+       y = ""Total Activities"") + 
+  theme(legend.position = ""bottom"")
+"
+"1","[38;5;232m`geom_smooth()` using method = 'loess' and formula = 'y ~ x'[39m
+"
